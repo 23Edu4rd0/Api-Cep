@@ -3,6 +3,9 @@ import requests
 
 URL = 'https://viacep.com.br/ws/{cep}/json/'
 
+
+st.set_page_config(page_title='Busca CEP', page_icon='📬', layout='wide')
+
 st.title('Busca CEP')
 
 cep = st.text_input('Digite o cep:')
